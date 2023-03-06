@@ -19,7 +19,7 @@ if st.button('Generar capítulo'):
     prompt = f"Escena: {scene_description}\n\nEscribe un capítulo de novela basado en la descripción de las escenas. Utiliza diálogos y descripciones ricas. Imita el estilo de Arturo Pérez Reverte\n\n"
     model = "text-davinci-003"
     temperature = 0.5
-    max_tokens = 3900
+    max_tokens = 3700
 
     # Generar el capítulo utilizando GPT-3.5-turbo
     response = openai.Completion.create(
