@@ -16,7 +16,7 @@ scene_description = st.text_input('Descripción de la escena')
 # Botón para generar el capítulo
 if st.button('Generar capítulo'):
     # Parámetros de la generación del capítulo
-    prompt = f"Escena: {scene_description}\n\nEscribe un capítulo de novela basado en la descripción de las escenas. Utiliza diálogos y descripciones ricas. Imita el estilo de Arturo Pérez Reverte. Usa el máximo de tokens disponibles. Escrib en español.\n\n"
+    prompt = f"Escena: {scene_description}\n\nEscribe un capítulo de 2000 palabras de novela basado en la descripción de las escenas. Utiliza diálogos y descripciones ricas. Imita el estilo de Arturo Pérez Reverte. Usa el máximo de tokens disponibles. Escrib en español.\n\n"
     model = "text-davinci-003"
     temperature = 0.5
     max_tokens = 3700
